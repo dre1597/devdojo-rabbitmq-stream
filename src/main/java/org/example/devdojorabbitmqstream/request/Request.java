@@ -5,5 +5,8 @@ import lombok.extern.jackson.Jacksonized;
 
 @Builder
 @Jacksonized
-record Request(String username, String password) {
+public record Request(
+    String username,
+    String password
+) {
 }
